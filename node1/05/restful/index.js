@@ -12,6 +12,6 @@ app.use(require('koa-static')(__dirname + '/'))
 app.use(restful)
 
 const port = 3000
-app.listen(port,() => {
-    console.log(`app started at port ${port}...`)
+app.listen(port, () => {
+  console.log(`app started at port ${port}...`)
 })
